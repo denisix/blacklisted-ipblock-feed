@@ -1,5 +1,9 @@
 # Blacklisted IP Block Feed
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/denisix/blacklisted-ipblock-feed/update-blocklist.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/denisix/blacklisted-ipblock-feed)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository generates and maintains aggregated IP blocklists from various security threat feeds. It automatically fetches, processes, and optimizes IP ranges from multiple sources to create consolidated blocklists for network security.
 
 ## Features
