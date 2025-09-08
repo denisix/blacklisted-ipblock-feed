@@ -1,0 +1,15 @@
+{
+  "abuse-ch-feodo": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
+  "blocklist-de-ssh": "https://lists.blocklist.de/lists/ssh.txt",
+  "blocklist-de-bruteforce": "http://lists.blocklist.de/lists/bruteforcelogin.txt",
+  "blocklist-net-ua": "https://blocklist.net.ua/blocklist.csv",
+  "bruteforceblocker": "https://danger.rulez.sk/projects/bruteforceblocker/blist.php",
+  "ci-army": "http://cinsscore.com/list/ci-badguys.txt",
+  "cymru-bogons": "https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt",
+  "cymru-bogons-aggregate": "https://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt",
+  "emerging-threats": "https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt",
+  "firehol-level1": "https://iplists.firehol.org/files/firehol_level1.netset",
+  "iana-special-purpose": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry-1.csv",
+  "ipsum": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
+  "urlhaus-hosts": "https://urlhaus.abuse.ch/downloads/hostfile/"
+}
