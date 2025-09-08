@@ -25,13 +25,7 @@ jobs:
       run: bun run generate.js
       
     - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add source/ dist/
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update blocklist feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          git push
-        fi
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update blocklist feeds - ${{ github.run_id }}"
+        file_pattern: "source/ dist/"
