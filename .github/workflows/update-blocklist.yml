@@ -1,0 +1,37 @@
+name: Update Blocklist
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+    container:
+      image: oven/bun:alpine
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+        
+    - name: Create required directories
+      run: |
+        mkdir -p source
+        mkdir -p dist
+        
+    - name: Run blocklist generator
+      run: bun run generate.js
+      
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add source/ dist/
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update blocklist feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+        fi
