@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-11 23:59:15 (UTC)                      #
+# Last updated: 2025-09-12 05:58:12 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -37,8 +37,8 @@
 127.0.0.1	anapa-zarya.ru
 127.0.0.1	antvietnam.com
 127.0.0.1	anydeesk.ink
+127.0.0.1	anythingcanbethissub.chat1.store
 127.0.0.1	api.co-operativefinance.com
-127.0.0.1	app-monespaces-securpass-assurances.art
 127.0.0.1	app-ups.com
 127.0.0.1	apple-service93.ru
 127.0.0.1	areyouready.co.za
@@ -53,6 +53,7 @@
 127.0.0.1	babayaga.ro
 127.0.0.1	backupso.com
 127.0.0.1	bankgarantia.ru
+127.0.0.1	bblissmassage.com
 127.0.0.1	best.zyrupoe.ru
 127.0.0.1	bestieslos.com
 127.0.0.1	bet.pykokiu43.ru
@@ -85,14 +86,12 @@
 127.0.0.1	chinaapper.com
 127.0.0.1	chinesegarden.com.tr
 127.0.0.1	chiptune.com
-127.0.0.1	chuguadventures.co.tz
 127.0.0.1	city.organzoperate.com
 127.0.0.1	clks.sweatscissors.com
 127.0.0.1	cnnetwork.uk
 127.0.0.1	coach.028csc.com
 127.0.0.1	codingvix.win
 127.0.0.1	computersupportexperts.com
-127.0.0.1	continentalgroup.net.in
 127.0.0.1	cooptraexxon.com
 127.0.0.1	couturellin.com
 127.0.0.1	crew.organzoperate.com
@@ -136,6 +135,7 @@
 127.0.0.1	download.caihong.com
 127.0.0.1	download.doumaibiji.cn
 127.0.0.1	download.haozip.com
+127.0.0.1	download.innovare.no
 127.0.0.1	download.kaobeitu.com
 127.0.0.1	download.pdf00.cn
 127.0.0.1	download.pdf00.com
@@ -150,8 +150,8 @@
 127.0.0.1	electri.billregulator.com
 127.0.0.1	electrum-dogecoin.com
 127.0.0.1	elisans.novayonetim.com
-127.0.0.1	embedone.com
 127.0.0.1	employees.medicalcenterclinic.com
+127.0.0.1	emprotel.net.bo
 127.0.0.1	energy63.ru
 127.0.0.1	eroes.nl
 127.0.0.1	evangroup.ru
@@ -199,13 +199,13 @@
 127.0.0.1	igra123.com
 127.0.0.1	iiiconstruction.net
 127.0.0.1	imtoken8.cc
-127.0.0.1	indialign.com
 127.0.0.1	info-2go.com
 127.0.0.1	innaflux.com
 127.0.0.1	intelligentopennetworkingawards.com
 127.0.0.1	investtrad.com
 127.0.0.1	iprovietnam.com
 127.0.0.1	ircftp.net
+127.0.0.1	isiore.com.co
 127.0.0.1	itcomsrv.kz
 127.0.0.1	izocab.com
 127.0.0.1	izogard.com
@@ -279,9 +279,9 @@
 127.0.0.1	muzzumilruheel.com
 127.0.0.1	mx1.sweatscissors.com
 127.0.0.1	mx2.sweatscissors.com
-127.0.0.1	myayurvedashoppe.com
 127.0.0.1	n.wofaraa29.ru
 127.0.0.1	namthaibinh.net
+127.0.0.1	ndirection.kr
 127.0.0.1	neat.kuryc7yy1.ru
 127.0.0.1	nicole-emer.de
 127.0.0.1	noithaticon.vn
@@ -290,6 +290,7 @@
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
 127.0.0.1	oborploiesti.ro
+127.0.0.1	office-service-cdt.com
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
 127.0.0.1	olingerphoto.com
@@ -341,6 +342,7 @@
 127.0.0.1	pobedastaff.ru
 127.0.0.1	ptgut.co.id
 127.0.0.1	public.demo.securecloudsandbox.com
+127.0.0.1	qd.fa6eq.ru
 127.0.0.1	qiniuyunxz.yxflzs.com
 127.0.0.1	ql.dapusey.ru
 127.0.0.1	qlqd5zqefmkcr34a.onion.sh
@@ -348,9 +350,9 @@
 127.0.0.1	qx.jozotea.ru
 127.0.0.1	ramactools.net
 127.0.0.1	ransokk.de
-127.0.0.1	razorcrypter.com
 127.0.0.1	rdm.91yunma.cn
 127.0.0.1	reauthenticator.com
+127.0.0.1	records.dennisign.se
 127.0.0.1	redlk.com
 127.0.0.1	reifenquick.de
 127.0.0.1	reusable-flex.com
@@ -360,6 +362,7 @@
 127.0.0.1	rka.qisytui.ru
 127.0.0.1	robertrowe.com
 127.0.0.1	roraffle.net
+127.0.0.1	rpperformance.com.br
 127.0.0.1	rxquickpay.com
 127.0.0.1	s.kilut4ou8.ru
 127.0.0.1	sanhack.com
@@ -371,6 +374,7 @@
 127.0.0.1	screen.connectprotocol.es
 127.0.0.1	sdvgpro.ru
 127.0.0.1	seamlessvideowall.com
+127.0.0.1	sec.xiaoshabi.nl
 127.0.0.1	secure.third-domain.su
 127.0.0.1	serralux.pt
 127.0.0.1	sfa.com.ar
@@ -398,6 +402,7 @@
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
 127.0.0.1	stdown.dinju.com
+127.0.0.1	stonecradle.com
 127.0.0.1	stradomi.com
 127.0.0.1	supercleanspb.ru
 127.0.0.1	support.clz.kr
@@ -410,6 +415,7 @@
 127.0.0.1	tcgroup.com.au
 127.0.0.1	te.gunim5yi8.ru
 127.0.0.1	tecunonline.com
+127.0.0.1	tehrancraftst.ir
 127.0.0.1	telegramcn.co
 127.0.0.1	temirtau-adm.ru
 127.0.0.1	tengfeidn.cn
@@ -423,7 +429,6 @@
 127.0.0.1	tiv.lizusey.ru
 127.0.0.1	topmedsolution.com
 127.0.0.1	tpp.tj
-127.0.0.1	transalpinafan.ro
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	treinamento.convenio.to.gov.br
 127.0.0.1	trtmyanmar.com
@@ -440,7 +445,6 @@
 127.0.0.1	vagler.ru
 127.0.0.1	vast.kuryc7yy1.ru
 127.0.0.1	vcpesaas.com
-127.0.0.1	vegasnights.co.za
 127.0.0.1	veryboys.com
 127.0.0.1	vex.naberui.ru
 127.0.0.1	vex.zyrupoe.ru
@@ -465,10 +469,12 @@
 127.0.0.1	writerartist.com
 127.0.0.1	wrxcnc.com
 127.0.0.1	www.aqianniao.com
+127.0.0.1	www.ardguisser.com
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.axhelp.top
 127.0.0.1	www.bancarioscornelio.com.br
+127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.caravella.com.br
 127.0.0.1	www.carusoadvogados.com.br
@@ -509,10 +515,10 @@
 127.0.0.1	www.ss-01.com
 127.0.0.1	www.starcountry.net
 127.0.0.1	www.support-data.com
-127.0.0.1	www.surethinks.com
 127.0.0.1	www.techgeeks.org
 127.0.0.1	www.tecunonline.com
 127.0.0.1	www.teknotown.com
+127.0.0.1	www.test.peperoncinochepassione.it
 127.0.0.1	www.tirtasentosa.com
 127.0.0.1	www.tobeart.ru
 127.0.0.1	www.udobrit.ru
@@ -543,6 +549,5 @@
 127.0.0.1	za.cubaqay.ru
 127.0.0.1	zakypky-ru-info.website
 127.0.0.1	zapchast-gazkotel.ru
-127.0.0.1	zenglobalenerji.com
 127.0.0.1	zod.wofelee.ru
-# Number of entries: 539
+# Number of entries: 544
