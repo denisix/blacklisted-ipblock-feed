@@ -1,18 +1,20 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-12 23:56:19 (UTC)                      #
+# Last updated: 2025-09-13 05:56:18 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
 ################################################################
 #
-127.0.0.1	10086623.top
+127.0.0.1	1.fe1it.ru
 127.0.0.1	111101111.ru
 127.0.0.1	123.ywxww.net
 127.0.0.1	1717.1000uc.com
 127.0.0.1	178.17.58.0x31
 127.0.0.1	2908.photolives.info
+127.0.0.1	4revergreen.com
 127.0.0.1	52mj.susuwei.cn
+127.0.0.1	6ak-tehnik.si
 127.0.0.1	a.dasurie36.ru
 127.0.0.1	a1.l4nggeng.my.id
 127.0.0.1	abissnet.net
@@ -55,7 +57,6 @@
 127.0.0.1	at.boku0.ru
 127.0.0.1	augsburg-auto.com
 127.0.0.1	aulist.com
-127.0.0.1	aurorabolnica.co.rs
 127.0.0.1	autoiwc.ru
 127.0.0.1	axhelp.top
 127.0.0.1	babayaga.ro
@@ -72,7 +73,6 @@
 127.0.0.1	bmdcompany.com
 127.0.0.1	bo.gunim5yi8.ru
 127.0.0.1	boekportret-nl.gt.tc
-127.0.0.1	book.organzoperate.com
 127.0.0.1	book.rollingvideogames.com
 127.0.0.1	boylegmfg.com
 127.0.0.1	bracell.latitude.net.br
@@ -84,14 +84,13 @@
 127.0.0.1	by.ty1un.ru
 127.0.0.1	by.xe3ax.ru
 127.0.0.1	calm.vudeh0ae3.ru
-127.0.0.1	camp.organzoperate.com
 127.0.0.1	caravella.com.br
-127.0.0.1	cat.xiaoshabi.nl
 127.0.0.1	catbaparadisehotel.com.vn
 127.0.0.1	ccilogistica.com.br
 127.0.0.1	cdaonline.com.ar
 127.0.0.1	cdn.file6.goodid.com
 127.0.0.1	cegelecinfo.fr
+127.0.0.1	celebratingseniors.net
 127.0.0.1	cerni-mix-01174839212-snort-20.resourcemaster.net
 127.0.0.1	cf-2-up.com
 127.0.0.1	chaparral.es
@@ -101,7 +100,6 @@
 127.0.0.1	chinaapper.com
 127.0.0.1	chinesegarden.com.tr
 127.0.0.1	chiptune.com
-127.0.0.1	chuguadventures.co.tz
 127.0.0.1	city.organzoperate.com
 127.0.0.1	classroomseven.com
 127.0.0.1	clks.sweatscissors.com
@@ -134,10 +132,10 @@
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	device.redirec.com
 127.0.0.1	dezcom.com
+127.0.0.1	dezino.ir
 127.0.0.1	dhnconstrucciones.com.ar
 127.0.0.1	disk.accord1key.cn
 127.0.0.1	divametalart.com
-127.0.0.1	dive.organzoperate.com
 127.0.0.1	dl.1003b.56a.com
 127.0.0.1	dl.aginjector.com
 127.0.0.1	dl.asis.io
@@ -200,6 +198,7 @@
 127.0.0.1	glaustralia.com
 127.0.0.1	go.boku-0.ru
 127.0.0.1	go.fe1it.ru
+127.0.0.1	googletagamnager.com
 127.0.0.1	greenmile.ng
 127.0.0.1	grikom.info
 127.0.0.1	gx.laqygye.ru
@@ -213,7 +212,6 @@
 127.0.0.1	hobobot.net
 127.0.0.1	hogarsancamilo.org
 127.0.0.1	hollywoodcafeonmain.com
-127.0.0.1	hope2cooling.com
 127.0.0.1	hotel-city.net
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	howtianxxx.xo.je
@@ -226,15 +224,17 @@
 127.0.0.1	iiiconstruction.net
 127.0.0.1	imtoken8.cc
 127.0.0.1	in.boku-0.ru
+127.0.0.1	incredibletadoba.com
+127.0.0.1	indialign.com
 127.0.0.1	info-2go.com
 127.0.0.1	innaflux.com
-127.0.0.1	intelligentopennetworkingawards.com
 127.0.0.1	investtrad.com
 127.0.0.1	ircftp.net
 127.0.0.1	is.buno8.ru
 127.0.0.1	isiore.com.co
 127.0.0.1	it-ing.hr
 127.0.0.1	it.buno8.ru
+127.0.0.1	ita-airwaysva.com
 127.0.0.1	itcomsrv.kz
 127.0.0.1	itssprout.com
 127.0.0.1	izocab.com
@@ -248,6 +248,7 @@
 127.0.0.1	jointings.org
 127.0.0.1	jxhuyhoang.com
 127.0.0.1	jyothishmathi.in
+127.0.0.1	k1gkl25as.top
 127.0.0.1	kakhun.ru
 127.0.0.1	kamin-premium.ru
 127.0.0.1	karoonpc.com
@@ -255,7 +256,6 @@
 127.0.0.1	kavacanada.ca
 127.0.0.1	keen.vudeh0ae3.ru
 127.0.0.1	khavar.com
-127.0.0.1	kis.marketing
 127.0.0.1	kj.by3iq.ru
 127.0.0.1	klar.gg
 127.0.0.1	kli.sojokiy.ru
@@ -281,10 +281,10 @@
 127.0.0.1	lv.we4ex.ru
 127.0.0.1	lx.ji1im.ru
 127.0.0.1	m-global.hksty.net
+127.0.0.1	m.bal-stroi.ru
 127.0.0.1	maidforyou1985.com
 127.0.0.1	main.dsn.ovh
 127.0.0.1	malupieng.com.br
-127.0.0.1	masgrave.com
 127.0.0.1	maxximbrasil.com
 127.0.0.1	mclighthouse.ir
 127.0.0.1	md.cykugeu.ru
@@ -295,6 +295,7 @@
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	metrics.gocloudmaps.com
 127.0.0.1	michellegraci.com
+127.0.0.1	microsoft-analyse.com
 127.0.0.1	microsoft-telemetry.cc
 127.0.0.1	minepulse.pro
 127.0.0.1	mitreart.com
@@ -303,21 +304,21 @@
 127.0.0.1	mox.we4ex.ru
 127.0.0.1	mri.bi3ux.ru
 127.0.0.1	mro.cubaqay.ru
+127.0.0.1	ms-team-ping7.com
 127.0.0.1	mta.sapafou.ru
 127.0.0.1	mtmra.com
 127.0.0.1	mundocarnes.cl
+127.0.0.1	muzzumilruheel.com
 127.0.0.1	mv.mo5un.ru
 127.0.0.1	mx1.sweatscissors.com
 127.0.0.1	mx2.sweatscissors.com
 127.0.0.1	mylove88.top
 127.0.0.1	n.wofaraa29.ru
-127.0.0.1	nbbgarden.vn
 127.0.0.1	ndirection.kr
 127.0.0.1	neat.kuryc7yy1.ru
 127.0.0.1	nl.qe3yn.ru
 127.0.0.1	no.buno8.ru
 127.0.0.1	noithaticon.vn
-127.0.0.1	nusatoyota.co.id
 127.0.0.1	nvtai.id.vn
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
@@ -326,10 +327,12 @@
 127.0.0.1	office-service-cdt.com
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
+127.0.0.1	oknoplastik.sk
 127.0.0.1	olingerphoto.com
 127.0.0.1	on.ciqe8.ru
 127.0.0.1	on.kilut4ou8.ru
 127.0.0.1	onedomainpro.com
+127.0.0.1	onfiltre.com.tr
 127.0.0.1	onlinetanecni.cz
 127.0.0.1	onyxaquarius.de
 127.0.0.1	onyxarmorcrypt.de
@@ -377,9 +380,12 @@
 127.0.0.1	pns.org.pk
 127.0.0.1	pobedastaff.ru
 127.0.0.1	poppy.monster
+127.0.0.1	profalsam.com
+127.0.0.1	protherapycenter.com
 127.0.0.1	pru.qe3yn.ru
 127.0.0.1	ptgut.co.id
 127.0.0.1	public.demo.securecloudsandbox.com
+127.0.0.1	q.bi0ic.ru
 127.0.0.1	qd.fa6eq.ru
 127.0.0.1	qiniuyunxz.yxflzs.com
 127.0.0.1	qlqd5zqefmkcr34a.onion.sh
@@ -390,6 +396,7 @@
 127.0.0.1	razorcrypter.com
 127.0.0.1	rdm.91yunma.cn
 127.0.0.1	reauthenticator.com
+127.0.0.1	records.dennisign.se
 127.0.0.1	redlk.com
 127.0.0.1	reifenquick.de
 127.0.0.1	reusable-flex.com
@@ -420,11 +427,9 @@
 127.0.0.1	sharegolem.com
 127.0.0.1	shark-watewer.com
 127.0.0.1	shop.mediasova.ru
-127.0.0.1	shqdown.ggzuhao.com
 127.0.0.1	sk-comtel.com
 127.0.0.1	skynetx.com.br
 127.0.0.1	smeetspost.nl
-127.0.0.1	smoking-hot.net
 127.0.0.1	sms-szfang.com
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
@@ -464,15 +469,12 @@
 127.0.0.1	tiny.kuryc7yy1.ru
 127.0.0.1	tirtasentosa.com
 127.0.0.1	tne.we4ex.ru
-127.0.0.1	topmedsolution.com
 127.0.0.1	tpp.tj
 127.0.0.1	tr.ji1im.ru
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	treinamento.convenio.to.gov.br
-127.0.0.1	trtmyanmar.com
 127.0.0.1	trungtambaohanhmaylanh.com
 127.0.0.1	ukguk71.ru
-127.0.0.1	universami.ge
 127.0.0.1	universitariaglobal.com
 127.0.0.1	upchemicals.co.in
 127.0.0.1	update.cg100iii.com
@@ -499,6 +501,7 @@
 127.0.0.1	vodomer-service.ru
 127.0.0.1	vpn.silk-gen.com
 127.0.0.1	vulnfactory.org
+127.0.0.1	waymoadvocates.com
 127.0.0.1	wd.gunim5yi8.ru
 127.0.0.1	website.mypetapp.co.za
 127.0.0.1	windatem.com
@@ -514,7 +517,6 @@
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.axhelp.top
-127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.bratusferramentas.grupomoltz.com.br
 127.0.0.1	www.caravella.com.br
@@ -584,7 +586,9 @@
 127.0.0.1	xn--b1afiqif6c.xn--p1ai
 127.0.0.1	xn--yh4bx88a.com
 127.0.0.1	xrp.dasurie36.ru
+127.0.0.1	xshop.com.tr
 127.0.0.1	xuezha.net
+127.0.0.1	yahyacarpet.com
 127.0.0.1	yn.fa6eq.ru
 127.0.0.1	yn.qisytui.ru
 127.0.0.1	yongtai.cn
@@ -595,7 +599,8 @@
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zi.we4ex.ru
+127.0.0.1	zistpolymer.com
 127.0.0.1	zod.wofelee.ru
 127.0.0.1	zpa.bi3ux.ru
 127.0.0.1	zu.wi9ik.ru
-# Number of entries: 592
+# Number of entries: 597
