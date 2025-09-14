@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-14 11:56:22 (UTC)                      #
+# Last updated: 2025-09-14 17:54:08 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -12,6 +12,7 @@
 127.0.0.1	123.ywxww.net
 127.0.0.1	1717.1000uc.com
 127.0.0.1	4revergreen.com
+127.0.0.1	52mj.susuwei.cn
 127.0.0.1	a1.l4nggeng.my.id
 127.0.0.1	abissnet.net
 127.0.0.1	acc.jiangsujiaxue.com
@@ -29,6 +30,7 @@
 127.0.0.1	afrihealthexpo.org
 127.0.0.1	aftermaths-attraction.com
 127.0.0.1	agapi.cqjjb.cn
+127.0.0.1	alarmline.com.br
 127.0.0.1	alien-training.com
 127.0.0.1	allendostmen.com
 127.0.0.1	alpinreisan1.com
@@ -52,7 +54,6 @@
 127.0.0.1	at.devy3.ru
 127.0.0.1	augsburg-auto.com
 127.0.0.1	aulist.com
-127.0.0.1	aurorabolnica.co.rs
 127.0.0.1	autoiwc.ru
 127.0.0.1	axhelp.top
 127.0.0.1	babayaga.ro
@@ -60,6 +61,7 @@
 127.0.0.1	bankgarantia.ru
 127.0.0.1	be.boku0.ru
 127.0.0.1	be.devy-3.ru
+127.0.0.1	belezapuracosmetica.com
 127.0.0.1	bestieslos.com
 127.0.0.1	blackhatusa.com
 127.0.0.1	blaiz.me
@@ -90,7 +92,6 @@
 127.0.0.1	cegelecinfo.fr
 127.0.0.1	celebratingseniors.net
 127.0.0.1	cerni-mix-01174839212-snort-20.resourcemaster.net
-127.0.0.1	cf-2-up.com
 127.0.0.1	chaparral.es
 127.0.0.1	chat-server.maverickpreviews.com
 127.0.0.1	checkinetverifk.com
@@ -99,7 +100,6 @@
 127.0.0.1	chiptune.com
 127.0.0.1	city.organzoperate.com
 127.0.0.1	classroomseven.com
-127.0.0.1	clearsoundclinic.com
 127.0.0.1	clks.sweatscissors.com
 127.0.0.1	cnnetwork.uk
 127.0.0.1	coach.028csc.com
@@ -122,7 +122,6 @@
 127.0.0.1	data.yhydl.com
 127.0.0.1	daviddarle.fr
 127.0.0.1	dcrun.co.uk
-127.0.0.1	dcwblida.dz
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	device.redirec.com
 127.0.0.1	dezcom.com
@@ -140,7 +139,6 @@
 127.0.0.1	do.boku-0.ru
 127.0.0.1	domainweel.com
 127.0.0.1	donkeytourscroatia.com
-127.0.0.1	down.54nb.com
 127.0.0.1	down.fwqlt.com
 127.0.0.1	down.pcclear.com
 127.0.0.1	down.qqfarmer.com.cn
@@ -263,12 +261,12 @@
 127.0.0.1	lv.we4ex.ru
 127.0.0.1	lx.ji1im.ru
 127.0.0.1	m-global.hksty.net
-127.0.0.1	m.bal-stroi.ru
 127.0.0.1	m.zo1ah.ru
 127.0.0.1	maidforyou1985.com
 127.0.0.1	main.dsn.ovh
 127.0.0.1	malupieng.com.br
 127.0.0.1	mandarin.net.au
+127.0.0.1	masgrave.com
 127.0.0.1	maxximbrasil.com
 127.0.0.1	md.cykugeu.ru
 127.0.0.1	me.buno8.ru
@@ -277,7 +275,6 @@
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	metrics.gocloudmaps.com
 127.0.0.1	michellegraci.com
-127.0.0.1	microsoft-analyse.com
 127.0.0.1	microsoft-telemetry.cc
 127.0.0.1	minepulse.pro
 127.0.0.1	mitreart.com
@@ -287,7 +284,6 @@
 127.0.0.1	mri.bi3ux.ru
 127.0.0.1	mro.cubaqay.ru
 127.0.0.1	mundocarnes.cl
-127.0.0.1	muzzumilruheel.com
 127.0.0.1	mv.mo5un.ru
 127.0.0.1	mx1.sweatscissors.com
 127.0.0.1	mx2.sweatscissors.com
@@ -299,6 +295,7 @@
 127.0.0.1	nnnpanel.top
 127.0.0.1	no.buno8.ru
 127.0.0.1	noithaticon.vn
+127.0.0.1	nusatoyota.co.id
 127.0.0.1	nvtai.id.vn
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
@@ -307,12 +304,14 @@
 127.0.0.1	office-service-cdt.com
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
+127.0.0.1	oknoplastik.sk
 127.0.0.1	olingerphoto.com
 127.0.0.1	on.ciqe8.ru
 127.0.0.1	onedomainpro.com
 127.0.0.1	onfiltre.com.tr
 127.0.0.1	onlinetanecni.cz
 127.0.0.1	onyxaquarius.de
+127.0.0.1	onyxarmorcrypt.de
 127.0.0.1	onyxcryptorix.de
 127.0.0.1	onyxcyberapex.de
 127.0.0.1	onyxcyberedge.de
@@ -339,7 +338,6 @@
 127.0.0.1	ossbtvestaffcics.com
 127.0.0.1	owlcity.ru
 127.0.0.1	p3.zbjimg.com
-127.0.0.1	p4man.com.br
 127.0.0.1	p5.zbjimg.com
 127.0.0.1	p6.zbjimg.com
 127.0.0.1	palharesinformatica.com.br
@@ -364,8 +362,9 @@
 127.0.0.1	qra.we4ex.ru
 127.0.0.1	ramactools.net
 127.0.0.1	ransokk.de
-127.0.0.1	razorcrypter.com
 127.0.0.1	rdm.91yunma.cn
+127.0.0.1	reauthenticator.com
+127.0.0.1	records.dennisign.se
 127.0.0.1	redlk.com
 127.0.0.1	reifenquick.de
 127.0.0.1	reusable-flex.com
@@ -375,6 +374,7 @@
 127.0.0.1	rpperformance.com.br
 127.0.0.1	rq.fo1od.ru
 127.0.0.1	rxquickpay.com
+127.0.0.1	sanhack.com
 127.0.0.1	scainseto.com.br
 127.0.0.1	scan-echo.online
 127.0.0.1	scanwellhaulage.com
@@ -382,13 +382,11 @@
 127.0.0.1	screen.connectprotocol.es
 127.0.0.1	sdvgpro.ru
 127.0.0.1	seamlessvideowall.com
-127.0.0.1	sec.xiaoshabi.nl
 127.0.0.1	secure.third-domain.su
 127.0.0.1	securedocusharex.com
 127.0.0.1	serralux.pt
 127.0.0.1	sfa.com.ar
 127.0.0.1	sg123.net
-127.0.0.1	shaderm.com
 127.0.0.1	shadowsouls.site
 127.0.0.1	sharegolem.com
 127.0.0.1	shark-watewer.com
@@ -410,6 +408,7 @@
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
 127.0.0.1	stdown.dinju.com
+127.0.0.1	stonecradle.com
 127.0.0.1	stradomi.com
 127.0.0.1	supercleanspb.ru
 127.0.0.1	support.clz.kr
@@ -438,7 +437,6 @@
 127.0.0.1	tr.ji1im.ru
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	treinamento.convenio.to.gov.br
-127.0.0.1	trtmyanmar.com
 127.0.0.1	trungtambaohanhmaylanh.com
 127.0.0.1	ukguk71.ru
 127.0.0.1	up.ciqe8.ru
@@ -477,8 +475,8 @@
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.axhelp.top
+127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
-127.0.0.1	www.bratusferramentas.grupomoltz.com.br
 127.0.0.1	www.caravella.com.br
 127.0.0.1	www.carusoadvogados.com.br
 127.0.0.1	www.chenwangqiao.com
@@ -497,10 +495,8 @@
 127.0.0.1	www.institut-corps-a-ligne.fr
 127.0.0.1	www.js-hurling.com
 127.0.0.1	www.khavar.com
-127.0.0.1	www.konsor.ru
 127.0.0.1	www.luuk-lifestyle.eu
 127.0.0.1	www.medises.co.kr
-127.0.0.1	www.messias.org.br
 127.0.0.1	www.mi2think.com
 127.0.0.1	www.mixturro.com
 127.0.0.1	www.modernitgen.com
@@ -558,4 +554,4 @@
 127.0.0.1	zi.we4ex.ru
 127.0.0.1	zpa.bi3ux.ru
 127.0.0.1	zu.wi9ik.ru
-# Number of entries: 552
+# Number of entries: 548
