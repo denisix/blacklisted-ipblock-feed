@@ -1,12 +1,13 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-14 23:54:13 (UTC)                      #
+# Last updated: 2025-09-15 05:53:16 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
 ################################################################
 #
 127.0.0.1	1.fe1it.ru
+127.0.0.1	10086623.top
 127.0.0.1	111101111.ru
 127.0.0.1	123.ywxww.net
 127.0.0.1	1717.1000uc.com
@@ -25,6 +26,7 @@
 127.0.0.1	advansys.com.ar
 127.0.0.1	adver.com.br
 127.0.0.1	advustech.com
+127.0.0.1	afrihealthexpo.org
 127.0.0.1	aftermaths-attraction.com
 127.0.0.1	agapi.cqjjb.cn
 127.0.0.1	alarmline.com.br
@@ -68,10 +70,10 @@
 127.0.0.1	buscascolegios.diit.cl
 127.0.0.1	buzz.organzoperate.com
 127.0.0.1	by.devy-3.ru
+127.0.0.1	c2.mc-live.online
 127.0.0.1	camp.organzoperate.com
 127.0.0.1	caravella.com.br
 127.0.0.1	castleapp.org
-127.0.0.1	cat.xiaoshabi.nl
 127.0.0.1	catbaparadisehotel.com.vn
 127.0.0.1	ccilogistica.com.br
 127.0.0.1	cdaonline.com.ar
@@ -89,6 +91,7 @@
 127.0.0.1	chiptune.com
 127.0.0.1	city.organzoperate.com
 127.0.0.1	classroomseven.com
+127.0.0.1	clearsoundclinic.com
 127.0.0.1	clks.sweatscissors.com
 127.0.0.1	cnnetwork.uk
 127.0.0.1	coach.028csc.com
@@ -124,6 +127,7 @@
 127.0.0.1	dl.dzqzd.com
 127.0.0.1	dl.natgo.cn
 127.0.0.1	dl.packetstormsecurity.net
+127.0.0.1	documentzweqz.com
 127.0.0.1	domainweel.com
 127.0.0.1	donkeytourscroatia.com
 127.0.0.1	down.54nb.com
@@ -132,7 +136,6 @@
 127.0.0.1	down.qqfarmer.com.cn
 127.0.0.1	download.caihong.com
 127.0.0.1	download.doumaibiji.cn
-127.0.0.1	download.haozip.com
 127.0.0.1	download.innovare.no
 127.0.0.1	download.kaobeitu.com
 127.0.0.1	download.pdf00.cn
@@ -174,6 +177,7 @@
 127.0.0.1	glaustralia.com
 127.0.0.1	go.fe1it.ru
 127.0.0.1	googletagamnager.com
+127.0.0.1	grecokitchens.com
 127.0.0.1	greenmile.ng
 127.0.0.1	grikom.info
 127.0.0.1	hasalltalent.com
@@ -191,6 +195,7 @@
 127.0.0.1	igra123.com
 127.0.0.1	iiiconstruction.net
 127.0.0.1	imtoken8.cc
+127.0.0.1	indialign.com
 127.0.0.1	info-2go.com
 127.0.0.1	innaflux.com
 127.0.0.1	intelligentopennetworkingawards.com
@@ -238,8 +243,8 @@
 127.0.0.1	maidforyou1985.com
 127.0.0.1	main.dsn.ovh
 127.0.0.1	mandarin.net.au
+127.0.0.1	masgrave.com
 127.0.0.1	maxximbrasil.com
-127.0.0.1	md.cykugeu.ru
 127.0.0.1	md.rexykye2.ru
 127.0.0.1	me3.ne.jp
 127.0.0.1	merctransfers.gradycares.com
@@ -249,6 +254,8 @@
 127.0.0.1	mitreart.com
 127.0.0.1	mogimall.com
 127.0.0.1	moonloaderupdate.ru
+127.0.0.1	mundocarnes.cl
+127.0.0.1	muzzumilruheel.com
 127.0.0.1	mx1.sweatscissors.com
 127.0.0.1	mx2.sweatscissors.com
 127.0.0.1	namthaibinh.net
@@ -258,12 +265,10 @@
 127.0.0.1	nffbrasill.site
 127.0.0.1	nnnpanel.top
 127.0.0.1	noithaticon.vn
-127.0.0.1	nusatoyota.co.id
 127.0.0.1	nvtai.id.vn
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
 127.0.0.1	oborploiesti.ro
-127.0.0.1	office-service-cdt.com
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
 127.0.0.1	oknoplastik.sk
@@ -298,7 +303,6 @@
 127.0.0.1	ossbtvestaffcics.com
 127.0.0.1	owlcity.ru
 127.0.0.1	p3.zbjimg.com
-127.0.0.1	p4man.com.br
 127.0.0.1	p5.zbjimg.com
 127.0.0.1	p6.zbjimg.com
 127.0.0.1	palharesinformatica.com.br
@@ -314,6 +318,7 @@
 127.0.0.1	ptgut.co.id
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	q.bi0ic.ru
+127.0.0.1	q.m074.ru
 127.0.0.1	qiniuyunxz.yxflzs.com
 127.0.0.1	qlqd5zqefmkcr34a.onion.sh
 127.0.0.1	ramactools.net
@@ -337,7 +342,7 @@
 127.0.0.1	screen.connectprotocol.es
 127.0.0.1	sdvgpro.ru
 127.0.0.1	seamlessvideowall.com
-127.0.0.1	sec.xiaoshabi.nl
+127.0.0.1	secure.sexducks.com
 127.0.0.1	secure.third-domain.su
 127.0.0.1	securedocusharex.com
 127.0.0.1	sfa.com.ar
@@ -348,7 +353,6 @@
 127.0.0.1	shark-watewer.com
 127.0.0.1	shop.mediasova.ru
 127.0.0.1	shqdown.ggzuhao.com
-127.0.0.1	siedpco.org
 127.0.0.1	sk-comtel.com
 127.0.0.1	skynetx.com.br
 127.0.0.1	smeetspost.nl
@@ -374,6 +378,7 @@
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
 127.0.0.1	tcgroup.com.au
+127.0.0.1	techbud.ro
 127.0.0.1	tecunonline.com
 127.0.0.1	telegramcn.co
 127.0.0.1	temirtau-adm.ru
@@ -390,7 +395,6 @@
 127.0.0.1	tpp.tj
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	treinamento.convenio.to.gov.br
-127.0.0.1	trtmyanmar.com
 127.0.0.1	trungtambaohanhmaylanh.com
 127.0.0.1	ukguk71.ru
 127.0.0.1	up.ciqe8.ru
@@ -417,11 +421,13 @@
 127.0.0.1	we.devy3.ru
 127.0.0.1	webcre8.com
 127.0.0.1	website.mypetapp.co.za
+127.0.0.1	windatem.com
 127.0.0.1	windomstatetheater.com
 127.0.0.1	wood-simple.com
 127.0.0.1	woop-bicks.com
 127.0.0.1	wp.grovespras.com
 127.0.0.1	writerartist.com
+127.0.0.1	wrxcnc.com
 127.0.0.1	www.ardguisser.com
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
@@ -504,4 +510,4 @@
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zistpolymer.com
-# Number of entries: 498
+# Number of entries: 504
