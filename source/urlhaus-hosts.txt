@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-17 05:45:15 (UTC)                      #
+# Last updated: 2025-09-17 11:57:34 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -79,7 +79,6 @@
 127.0.0.1	bridgeroad.maverickpreviews.com
 127.0.0.1	brightworks.cz
 127.0.0.1	brutonfel366.analistadoido.fun
-127.0.0.1	buscascolegios.diit.cl
 127.0.0.1	buzz.organzoperate.com
 127.0.0.1	bv.f0z1n.ru
 127.0.0.1	bzr.29rs.ru
@@ -133,6 +132,7 @@
 127.0.0.1	data.yhydl.com
 127.0.0.1	daviddarle.fr
 127.0.0.1	dcrun.co.uk
+127.0.0.1	dcwblida.dz
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	detail-booking.com.br
 127.0.0.1	device.redirec.com
@@ -169,6 +169,7 @@
 127.0.0.1	drequal.vendendosonhos.yachts
 127.0.0.1	droriz.vendendosonhos.motorcycles
 127.0.0.1	dusttv.com
+127.0.0.1	dw.c4kdeliver.top
 127.0.0.1	dweixin.cn
 127.0.0.1	e.b340.ru
 127.0.0.1	e2.97jt.ru
@@ -176,13 +177,13 @@
 127.0.0.1	easybrand.vn
 127.0.0.1	electri.billregulator.com
 127.0.0.1	electrum-dogecoin.com
+127.0.0.1	elevenhold.hu
 127.0.0.1	elisans.novayonetim.com
 127.0.0.1	embedone.com
 127.0.0.1	employees.medicalcenterclinic.com
 127.0.0.1	emprotel.net.bo
 127.0.0.1	energy63.ru
 127.0.0.1	epanpano.com
-127.0.0.1	eroes.nl
 127.0.0.1	estartem.ro
 127.0.0.1	evangroup.ru
 127.0.0.1	evoribusiness.com
@@ -213,7 +214,6 @@
 127.0.0.1	glalannal.vendendosonhos.click
 127.0.0.1	glapinsil66.vendendosonhos.motorcycles
 127.0.0.1	glaustralia.com
-127.0.0.1	gobiotechpestcontrol.com
 127.0.0.1	goldseason.hu
 127.0.0.1	googletagamnager.com
 127.0.0.1	greenmile.ng
@@ -236,7 +236,6 @@
 127.0.0.1	info-2go.com
 127.0.0.1	innaflux.com
 127.0.0.1	installergitb.icu
-127.0.0.1	intelligentopennetworkingawards.com
 127.0.0.1	investtrad.com
 127.0.0.1	ircftp.net
 127.0.0.1	isiore.com.co
@@ -263,7 +262,7 @@
 127.0.0.1	katyache.com
 127.0.0.1	kavacanada.ca
 127.0.0.1	khavar.com
-127.0.0.1	klar.gg
+127.0.0.1	kingstreetdental.com.au
 127.0.0.1	konsor.ru
 127.0.0.1	kosmetolodzy.com
 127.0.0.1	kramersmarionnettes.com
@@ -273,12 +272,14 @@
 127.0.0.1	lindnerelektroanlagen.de
 127.0.0.1	linkssl.com
 127.0.0.1	linomu.com
+127.0.0.1	loadstopdocs.com
 127.0.0.1	local-update.com
 127.0.0.1	lomejordesalamanca.es
 127.0.0.1	lst.n50e.ru
 127.0.0.1	m-global.hksty.net
 127.0.0.1	m.bal-stroi.ru
 127.0.0.1	m.kdesu.ru
+127.0.0.1	m3.g-22.ru
 127.0.0.1	m9.r274.ru
 127.0.0.1	maidforyou1985.com
 127.0.0.1	main.dsn.ovh
@@ -288,6 +289,7 @@
 127.0.0.1	md.gazecoe.ru
 127.0.0.1	md.hecynya.ru
 127.0.0.1	md.jaxusoo.ru
+127.0.0.1	md.rexykye2.ru
 127.0.0.1	me3.ne.jp
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	mersinet.com
@@ -300,7 +302,6 @@
 127.0.0.1	mogimall.com
 127.0.0.1	moonloaderupdate.ru
 127.0.0.1	mundocarnes.cl
-127.0.0.1	muzzumilruheel.com
 127.0.0.1	mx1.sweatscissors.com
 127.0.0.1	mx2.sweatscissors.com
 127.0.0.1	n.j220.ru
@@ -343,6 +344,7 @@
 127.0.0.1	onyxsafetrack.de
 127.0.0.1	onyxsecuregate.de
 127.0.0.1	onyxsentinelx.de
+127.0.0.1	onyxshieldcore.de
 127.0.0.1	onyxstealthnet.de
 127.0.0.1	openaigrok.com
 127.0.0.1	ortopie.phuyufact.com
@@ -364,15 +366,18 @@
 127.0.0.1	pobedastaff.ru
 127.0.0.1	princegenesis.com
 127.0.0.1	profalsam.com
+127.0.0.1	protherapycenter.com
 127.0.0.1	ptgut.co.id
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	q.m074.ru
 127.0.0.1	qiniuyunxz.yxflzs.com
 127.0.0.1	qlqd5zqefmkcr34a.onion.sh
+127.0.0.1	qz7.g-22.ru
 127.0.0.1	r.k26i.ru
 127.0.0.1	r5.k002.ru
 127.0.0.1	ramactools.net
 127.0.0.1	ransokk.de
+127.0.0.1	razorcrypter.com
 127.0.0.1	rdm.91yunma.cn
 127.0.0.1	reauthenticator.com
 127.0.0.1	redlk.com
@@ -427,7 +432,6 @@
 127.0.0.1	support.viewpoint.fr
 127.0.0.1	svirtual.sanviatorperu.edu.pe
 127.0.0.1	t.k002.ru
-127.0.0.1	take-care.africa
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
 127.0.0.1	tcgroup.com.au
@@ -442,10 +446,10 @@
 127.0.0.1	thtp2.volamngayxua.net
 127.0.0.1	tirtasentosa.com
 127.0.0.1	tjthjd.icu
-127.0.0.1	topmedsolution.com
 127.0.0.1	tpp.tj
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	treinamento.convenio.to.gov.br
+127.0.0.1	trtmyanmar.com
 127.0.0.1	trungtambaohanhmaylanh.com
 127.0.0.1	u.b704.ru
 127.0.0.1	u.v-9542.ru
@@ -455,6 +459,7 @@
 127.0.0.1	update.volam2005pk.com
 127.0.0.1	upgradegc.com
 127.0.0.1	uploadtree.com
+127.0.0.1	v.g-22.ru
 127.0.0.1	vagler.ru
 127.0.0.1	vcpesaas.com
 127.0.0.1	veryboys.com
@@ -468,6 +473,7 @@
 127.0.0.1	vodomer-service.ru
 127.0.0.1	vpn.silk-gen.com
 127.0.0.1	vulnfactory.org
+127.0.0.1	w22554844132065184848541514.cc
 127.0.0.1	website.mypetapp.co.za
 127.0.0.1	windatem.com
 127.0.0.1	windomstatetheater.com
@@ -480,7 +486,6 @@
 127.0.0.1	www.ardguisser.com
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
-127.0.0.1	www.axhelp.top
 127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.bratusferramentas.grupomoltz.com.br
@@ -546,6 +551,7 @@
 127.0.0.1	www.zhikey.com
 127.0.0.1	wz.3911.com
 127.0.0.1	xai830k.com
+127.0.0.1	xiangshunjy.com
 127.0.0.1	ximonite.com
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
 127.0.0.1	xn--b1afiqif6c.xn--p1ai
@@ -562,7 +568,5 @@
 127.0.0.1	z.s57o.ru
 127.0.0.1	z1.97qm.ru
 127.0.0.1	zakypky-ru-info.website
-127.0.0.1	zamilgroups.com
-127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
-# Number of entries: 559
+# Number of entries: 563
