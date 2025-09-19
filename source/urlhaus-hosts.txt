@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-09-19 00:01:08 (UTC)                      #
+# Last updated: 2025-09-19 05:57:16 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -31,6 +31,7 @@
 127.0.0.1	adver.com.br
 127.0.0.1	advustech.com
 127.0.0.1	ae.k9u1.ru
+127.0.0.1	afrihealthexpo.org
 127.0.0.1	aftermaths-attraction.com
 127.0.0.1	ag.d1a8.ru
 127.0.0.1	agapi.cqjjb.cn
@@ -83,7 +84,6 @@
 127.0.0.1	bu.l9a5.ru
 127.0.0.1	buzz.organzoperate.com
 127.0.0.1	c.f-11.ru
-127.0.0.1	c2.mc-live.online
 127.0.0.1	c8.526r.ru
 127.0.0.1	camp.organzoperate.com
 127.0.0.1	cast.organzoperate.com
@@ -103,15 +103,12 @@
 127.0.0.1	chifacanton.phuyufact.com
 127.0.0.1	chinaapper.com
 127.0.0.1	chiptune.com
-127.0.0.1	chuguadventures.co.tz
 127.0.0.1	city.organzoperate.com
 127.0.0.1	classroomseven.com
-127.0.0.1	clearsoundclinic.com
 127.0.0.1	clks.sweatscissors.com
 127.0.0.1	cm0.s57o.ru
 127.0.0.1	coach.028csc.com
 127.0.0.1	codingvix.win
-127.0.0.1	computersupportexperts.com
 127.0.0.1	continentalgroup.net.in
 127.0.0.1	cooptraexxon.com
 127.0.0.1	couturellin.com
@@ -132,8 +129,8 @@
 127.0.0.1	dcrun.co.uk
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	detail-booking.com.br
-127.0.0.1	device.redirec.com
 127.0.0.1	dezcom.com
+127.0.0.1	dezino.ir
 127.0.0.1	dhnconstrucciones.com.ar
 127.0.0.1	disk.accord1key.cn
 127.0.0.1	dive.organzoperate.com
@@ -183,7 +180,6 @@
 127.0.0.1	file.blackint3.com
 127.0.0.1	file.edunet.ac
 127.0.0.1	file.uhsea.com
-127.0.0.1	first-security-verden.de
 127.0.0.1	flyingmutts.com
 127.0.0.1	foundationforever.com
 127.0.0.1	ftp.ywxww.net
@@ -203,6 +199,7 @@
 127.0.0.1	grikom.info
 127.0.0.1	h.z-72.ru
 127.0.0.1	h1.802d.ru
+127.0.0.1	h1.zik9.ru
 127.0.0.1	h4.n-98.ru
 127.0.0.1	hasalltalent.com
 127.0.0.1	hitman-pro.ru
@@ -222,6 +219,7 @@
 127.0.0.1	imtoken8.cc
 127.0.0.1	info-2go.com
 127.0.0.1	innaflux.com
+127.0.0.1	intelligentopennetworkingawards.com
 127.0.0.1	investtrad.com
 127.0.0.1	ircftp.net
 127.0.0.1	isiore.com.co
@@ -293,7 +291,6 @@
 127.0.0.1	mycarrierdoc.com
 127.0.0.1	namthaibinh.net
 127.0.0.1	ncxps.com
-127.0.0.1	ndirection.kr
 127.0.0.1	nnnpanel.top
 127.0.0.1	noithaticon.vn
 127.0.0.1	numberpold.com
@@ -301,6 +298,7 @@
 127.0.0.1	nvtai.id.vn
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
+127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
 127.0.0.1	oknoplastik.sk
 127.0.0.1	olingerphoto.com
@@ -368,13 +366,13 @@
 127.0.0.1	ramactools.net
 127.0.0.1	ransokk.de
 127.0.0.1	ray2me.com
+127.0.0.1	razorcrypter.com
 127.0.0.1	rdm.91yunma.cn
 127.0.0.1	reauthenticator.com
 127.0.0.1	redlk.com
 127.0.0.1	reifenquick.de
 127.0.0.1	retiregenz.com
 127.0.0.1	reusable-flex.com
-127.0.0.1	revise-akmo.com
 127.0.0.1	robertrowe.com
 127.0.0.1	roraffle.net
 127.0.0.1	rpperformance.com.br
@@ -383,6 +381,7 @@
 127.0.0.1	s.802d.ru
 127.0.0.1	s1.prostreamx.xyz
 127.0.0.1	sanhack.com
+127.0.0.1	scainseto.com.br
 127.0.0.1	scan-echo.online
 127.0.0.1	scanwellhaulage.com
 127.0.0.1	schenckel.com.br
@@ -416,6 +415,7 @@
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
 127.0.0.1	stdown.dinju.com
+127.0.0.1	stonecradle.com
 127.0.0.1	stradomi.com
 127.0.0.1	stresse.st
 127.0.0.1	supercleanspb.ru
@@ -423,6 +423,7 @@
 127.0.0.1	support.viewpoint.fr
 127.0.0.1	svirtual.sanviatorperu.edu.pe
 127.0.0.1	t.h8y0.ru
+127.0.0.1	t.zik9.ru
 127.0.0.1	t7.z-72.ru
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
@@ -430,6 +431,7 @@
 127.0.0.1	tcgroup.com.au
 127.0.0.1	tecunonline.com
 127.0.0.1	telegramcn.co
+127.0.0.1	temirtau-adm.ru
 127.0.0.1	tengfeidn.cn
 127.0.0.1	tengfeidn.com
 127.0.0.1	test.peperoncinochepassione.it
@@ -439,7 +441,6 @@
 127.0.0.1	tpp.tj
 127.0.0.1	trannynet.adgods.uk
 127.0.0.1	transparenciacanaa.com.br
-127.0.0.1	treinamento.convenio.to.gov.br
 127.0.0.1	trtmyanmar.com
 127.0.0.1	trungtambaohanhmaylanh.com
 127.0.0.1	tx.fid1.ru
@@ -514,6 +515,8 @@
 127.0.0.1	www.myvcart.com
 127.0.0.1	www.namuvpn.com
 127.0.0.1	www.newkey.co.kr
+127.0.0.1	www.njzmfcls.com
+127.0.0.1	www.ojang.pe.kr
 127.0.0.1	www.okhan.net
 127.0.0.1	www.opolis.io
 127.0.0.1	www.playtown.co.za
@@ -541,6 +544,7 @@
 127.0.0.1	www.wrxcnc.com
 127.0.0.1	www.xn--on3b15m2lco2u.com
 127.0.0.1	www.xyffqh.com
+127.0.0.1	www.ysbaojia.com
 127.0.0.1	www.zamilgroups.com
 127.0.0.1	www.zhikey.com
 127.0.0.1	wz.3911.com
@@ -553,9 +557,11 @@
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
 127.0.0.1	xn--b1afiqif6c.xn--p1ai
 127.0.0.1	xn--yh4bx88a.com
+127.0.0.1	xq8.juq0.ru
 127.0.0.1	xshop.com.tr
 127.0.0.1	xuezha.net
 127.0.0.1	y.h8y0.ru
+127.0.0.1	yahyacarpet.com
 127.0.0.1	yongtai.cn
 127.0.0.1	yzkzixun.com
 127.0.0.1	z.ror6.ru
@@ -565,4 +571,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zidomasones.com
 127.0.0.1	zr3.f-11.ru
-# Number of entries: 559
+# Number of entries: 565
