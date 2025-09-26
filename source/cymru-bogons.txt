@@ -1,4 +1,4 @@
-# last updated 1758876901 (Fri Sep 26 08:55:01 2025 GMT)
+# last updated 1758905701 (Fri Sep 26 16:55:01 2025 GMT)
 # Know your network!  Please rigorously test all filters!
 0.0.0.0/8
 10.0.0.0/8
@@ -2828,6 +2828,5 @@
 220.156.176.0/21
 220.158.148.0/22
 220.158.216.0/22
-223.165.2.0/23
 224.0.0.0/4
 240.0.0.0/4
