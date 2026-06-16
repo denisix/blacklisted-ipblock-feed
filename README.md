@@ -8,12 +8,12 @@ This repository generates and maintains aggregated IP blocklists from various se
 
 ## Features
 
-- **Automated Feed Processing**: Fetches IP blocklists from 14 different security feeds
+- **Automated Feed Processing**: Fetches IP blocklists from 13 different security feeds
 - **Smart Deduplication**: Advanced algorithm that removes overlapping IP ranges and optimizes CIDR blocks
 - **Private Network Filtering**: Strips RFC1918 (10/8, 172.16/12, 192.168/16) and other non-routable ranges (loopback, link-local, this-network, CGNAT) from the operational blocklist. Dedicated bogon/special-purpose feeds (`cymru-bogons`, `iana-special-purpose`) retain them.
 - **Network Aggregation**: Merges individual IPs into /24 networks when 5+ IPs exist in the same subnet
 - **Multiple Output Formats**: Individual feed files and combined aggregated list
-- **Automated Updates**: GitHub Actions workflow runs every 6 hours and publishes the results to a rolling GitHub Release (the repo itself stays small — generated data is never committed)
+- **Automated Updates**: GitHub Actions workflow runs every 3 hours and publishes the results to a rolling GitHub Release (the repo itself stays small — generated data is never committed)
 
 ## Feeds Sources
 
@@ -49,7 +49,7 @@ see [Download / Subscribe](#download--subscribe) below.
 
 ## Download / Subscribe
 
-The latest feeds are always available at these stable URLs (updated every 6 hours):
+The latest feeds are always available at these stable URLs (updated every 3 hours):
 
 - **Combined blocklist**:
   `https://github.com/denisix/blacklisted-ipblock-feed/releases/latest/download/all.txt`
@@ -80,7 +80,7 @@ node generate.js
 ### Automated Updates
 
 The repository uses GitHub Actions to automatically:
-1. Fetch latest feeds every 6 hours
+1. Fetch latest feeds every 3 hours
 2. Process and deduplicate IP ranges
 3. Publish the processed feeds as assets on the rolling `latest` GitHub Release (the same release is updated in place, so nothing accumulates)
 
