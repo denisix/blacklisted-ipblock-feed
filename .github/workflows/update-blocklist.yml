@@ -1,0 +1,43 @@
+name: Update Blocklist
+
+on:
+  schedule:
+    # Run hourly at :17 (off-peak minute; top-of-hour cron slots are heavily
+    # contended and more likely to be delayed/skipped by GitHub).
+    - cron: '17 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+        
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+        
+    - name: Create required directories
+      run: |
+        mkdir -p source
+        mkdir -p dist
+        
+    - name: Run blocklist generator
+      run: bun run generate.js
+      
+    - name: Publish feeds to rolling release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        # Reuse a single "latest" release forever: create it once, then only
+        # overwrite its assets in place. --clobber replaces the old files, so the
+        # release never accumulates versions and storage stays flat.
+        gh release view latest >/dev/null 2>&1 \
+          || gh release create latest --title "Latest blocklist feed" \
+               --notes "Rolling aggregated IP blocklist, regenerated every 6 hours."
+        gh release upload latest dist/*.txt --clobber

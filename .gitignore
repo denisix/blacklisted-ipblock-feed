@@ -1,0 +1,9 @@
+# Generated/transient data — published to the rolling GitHub Release, never committed.
+source/
+dist/
+
+# Local-only: secrets, tooling, scratch.
+.env
+.env.*
+.claude/
+plans/
