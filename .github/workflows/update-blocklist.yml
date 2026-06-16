@@ -2,9 +2,9 @@ name: Update Blocklist
 
 on:
   schedule:
-    # Run hourly at :17 (off-peak minute; top-of-hour cron slots are heavily
-    # contended and more likely to be delayed/skipped by GitHub).
-    - cron: '17 * * * *'
+    # Run every 3 hours at :17 (off-peak minute; top-of-hour cron slots are
+    # heavily contended and more likely to be delayed/skipped by GitHub).
+    - cron: '17 */3 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -39,5 +39,8 @@ jobs:
         # release never accumulates versions and storage stays flat.
         gh release view latest >/dev/null 2>&1 \
           || gh release create latest --title "Latest blocklist feed" \
-               --notes "Rolling aggregated IP blocklist, regenerated every 6 hours."
-        gh release upload latest dist/*.txt --clobber
+               --notes "Rolling aggregated IP blocklist, regenerated every 3 hours."
+        # Upload only non-empty files: GitHub's upload API rejects 0-byte assets
+        # with "Bad Content-Length" (e.g. urlhaus-hosts.txt yields no public IPv4).
+        mapfile -t assets < <(find dist -maxdepth 1 -name '*.txt' -size +0c)
+        gh release upload latest "${assets[@]}" --clobber
