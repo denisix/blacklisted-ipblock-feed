@@ -1,7 +1,14 @@
 const fs = require('fs')
 const feeds = require('./feeds.json')
 
-const IPS_MERGE_TO_NETWORK = 5
+const IPS_MERGE_TO_NETWORK = 32
+
+// GitHub publishes the IP ranges of all its services (web, api, git, actions,
+// packages, pages, ...). Many — especially the `actions` set — are broad Azure
+// cloud blocks that threat feeds routinely flag. We never want this list to
+// block GitHub itself (it is even where these feeds are published), so these
+// ranges are treated as an allowlist and stripped from every output feed.
+const GITHUB_META_URL = 'https://api.github.com/meta'
 
 const log = (...msg) => console.log(new Date().toISOString(), ...msg)
 const sleep = ms => new Promise(r => setTimeout(r, ms))
@@ -67,10 +74,44 @@ const PRIVATE_RANGES = [
   '192.168.0.0/16', // RFC1918 private-use
 ].map(parseNetwork)
 
-const isPrivate = (cidr) => {
+// True when `cidr` falls inside any of the parsed `ranges` (i.e. it is the same
+// as, or more specific than, an allowlisted/excluded block).
+const isWithin = (cidr, ranges) => {
   const p = parseNetwork(cidr)
   if (!p) return false
-  return PRIVATE_RANGES.some(r => ((p.network & r.mask) >>> 0) === r.network)
+  return ranges.some(r => ((p.network & r.mask) >>> 0) === r.network)
+}
+
+const isPrivate = (cidr) => isWithin(cidr, PRIVATE_RANGES)
+
+// Fetch GitHub's published IPv4 ranges from /meta and return them parsed.
+// Skips IPv6 and non-CIDR values (ssh keys, domains, booleans). Returns [] on
+// any failure so a transient outage never re-introduces GitHub IPs into output.
+const fetchGithubRanges = async () => {
+  const raw = await fetchUrl(GITHUB_META_URL, { 'Accept': 'application/vnd.github+json' })
+  if (!raw) {
+    log('github meta: fetch failed, GitHub allowlist disabled this run')
+    return []
+  }
+
+  let meta
+  try {
+    meta = JSON.parse(raw)
+  } catch (err) {
+    log('github meta: parse failed:', err.toString())
+    return []
+  }
+
+  const cidrs = new Set()
+  for (const value of Object.values(meta)) {
+    if (!Array.isArray(value)) continue
+    for (const entry of value) {
+      if (typeof entry === 'string' && /^\d+\.\d+\.\d+\.\d+\/\d+$/.test(entry)) cidrs.add(entry)
+    }
+  }
+
+  log('github meta:', cidrs.size, 'IPv4 ranges loaded into allowlist')
+  return Array.from(cidrs).map(parseNetwork).filter(Boolean)
 }
 
 const deduplicate = (cidrs) => {
@@ -184,6 +225,11 @@ const run = async () => {
 
   const t0 = Date.now()
 
+  // GitHub public-cloud ranges are always stripped from operational output,
+  // even from keepPrivate feeds — they are routable allocations, not bogons.
+  const githubRanges = await fetchGithubRanges()
+  const stripGithub = (list) => list.filter(cidr => !isWithin(cidr, githubRanges))
+
   // fetch feeds
   const ips_all = []
   const feedNames = Object.keys(feeds)
@@ -195,7 +241,7 @@ const run = async () => {
     const raw = await fetchUrl(url)
     if (raw) {
       const ips = deduplicate(parseIps(raw))
-      const distIps = keepPrivate ? ips : ips.filter(cidr => !isPrivate(cidr))
+      const distIps = stripGithub(keepPrivate ? ips : ips.filter(cidr => !isPrivate(cidr)))
 
       fs.writeFileSync(`source/${feedName}.txt`, raw, 'utf8')
       fs.writeFileSync(`dist/${feedName}.txt`, distIps.join('\n'), 'utf8')
@@ -205,7 +251,7 @@ const run = async () => {
     }
   }
 
-  const uniq = deduplicate(ips_all).filter(cidr => !isPrivate(cidr))
+  const uniq = stripGithub(deduplicate(ips_all).filter(cidr => !isPrivate(cidr)))
   fs.writeFileSync('dist/all.txt', uniq.join('\n'), 'utf8')
   log('total', uniq.length, 'entries saved, spent', ((Date.now() - t0) / 1000).toFixed(2), 'sec')
 }

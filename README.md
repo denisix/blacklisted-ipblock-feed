@@ -11,7 +11,8 @@ This repository generates and maintains aggregated IP blocklists from various se
 - **Automated Feed Processing**: Fetches IP blocklists from 13 different security feeds
 - **Smart Deduplication**: Advanced algorithm that removes overlapping IP ranges and optimizes CIDR blocks
 - **Private Network Filtering**: Strips RFC1918 (10/8, 172.16/12, 192.168/16) and other non-routable ranges (loopback, link-local, this-network, CGNAT) from the operational blocklist. Dedicated bogon/special-purpose feeds (`cymru-bogons`, `iana-special-purpose`) retain them.
-- **Network Aggregation**: Merges individual IPs into /24 networks when 5+ IPs exist in the same subnet
+- **GitHub / Public-Cloud Allowlist**: Fetches GitHub's published ranges from [`api.github.com/meta`](https://api.github.com/meta) and strips any matching IPs from every output feed. This keeps GitHub's own infrastructure — including the broad Azure `actions` ranges that threat feeds frequently flag — out of the blocklist. If the `/meta` request fails, the allowlist is skipped for that run rather than risking stale exclusions.
+- **Network Aggregation**: Merges individual IPs into /24 networks when 32+ IPs exist in the same subnet
 - **Multiple Output Formats**: Individual feed files and combined aggregated list
 - **Automated Updates**: GitHub Actions workflow runs every 3 hours and publishes the results to a rolling GitHub Release (the repo itself stays small — generated data is never committed)
 
@@ -90,7 +91,7 @@ The deduplication process:
 1. Parses IPs and CIDR blocks from raw feeds
 2. Groups by network prefix for hierarchical processing  
 3. Removes subnets contained within larger blocks
-4. Merges individual IPs to /24 networks when ≥5 IPs exist in same subnet
+4. Merges individual IPs to /24 networks when ≥32 IPs exist in same subnet
 5. Outputs optimized, non-overlapping IP ranges
 
 ## Output Format
