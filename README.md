@@ -13,10 +13,7 @@ This repository generates and maintains aggregated IP blocklists from various se
 - **Private Network Filtering**: Strips RFC1918 (10/8, 172.16/12, 192.168/16) and other non-routable ranges (loopback, link-local, this-network, CGNAT) from the operational blocklist. Dedicated bogon/special-purpose feeds (`cymru-bogons`, `iana-special-purpose`) retain them.
 - **GitHub / Public-Cloud Allowlist**: Fetches GitHub's published ranges from [`api.github.com/meta`](https://api.github.com/meta) and strips any matching IPs from every output feed. This keeps GitHub's own infrastructure — including the broad Azure `actions` ranges that threat feeds frequently flag — out of the blocklist. If the `/meta` request fails, the allowlist is skipped for that run rather than risking stale exclusions.
 - **Network Aggregation**: Merges individual IPs into /24 networks when 32+ IPs exist in the same subnet
-<<<<<<< HEAD
-=======
 - **Grouped Combines**: Reads `groups.json` to produce combined files (e.g. `medium.txt`, `brute.txt`) — groups can list feeds explicitly or exclude from the full set
->>>>>>> c4df84c (Add GitHub public-cloud allowlist; raise /24 merge threshold to 32; add grouped combines)
 - **Multiple Output Formats**: Individual feed files and combined aggregated list
 - **Automated Updates**: GitHub Actions workflow runs every 3 hours and publishes the results to a rolling GitHub Release (the repo itself stays small — generated data is never committed)
 
