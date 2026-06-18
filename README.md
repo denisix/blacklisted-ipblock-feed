@@ -13,10 +13,14 @@ This repository generates and maintains aggregated IP blocklists from various se
 - **Private Network Filtering**: Strips RFC1918 (10/8, 172.16/12, 192.168/16) and other non-routable ranges (loopback, link-local, this-network, CGNAT) from the operational blocklist. Dedicated bogon/special-purpose feeds (`cymru-bogons`, `iana-special-purpose`) retain them.
 - **GitHub / Public-Cloud Allowlist**: Fetches GitHub's published ranges from [`api.github.com/meta`](https://api.github.com/meta) and strips any matching IPs from every output feed. This keeps GitHub's own infrastructure — including the broad Azure `actions` ranges that threat feeds frequently flag — out of the blocklist. If the `/meta` request fails, the allowlist is skipped for that run rather than risking stale exclusions.
 - **Network Aggregation**: Merges individual IPs into /24 networks when 32+ IPs exist in the same subnet
+<<<<<<< HEAD
+=======
+- **Grouped Combines**: Reads `groups.json` to produce combined files (e.g. `medium.txt`, `brute.txt`) — groups can list feeds explicitly or exclude from the full set
+>>>>>>> c4df84c (Add GitHub public-cloud allowlist; raise /24 merge threshold to 32; add grouped combines)
 - **Multiple Output Formats**: Individual feed files and combined aggregated list
 - **Automated Updates**: GitHub Actions workflow runs every 3 hours and publishes the results to a rolling GitHub Release (the repo itself stays small — generated data is never committed)
 
-## Feeds Sources
+## Feed Sources
 
 The system aggregates data from these security feeds:
 
@@ -40,6 +44,7 @@ The system aggregates data from these security feeds:
 │   ├── all.txt      # Combined aggregated blocklist
 │   └── *.txt        # Individual processed feeds
 ├── feeds.json       # Feed source URLs configuration
+├── groups.json      # Named groups that combine individual feeds into group files
 └── generate.js      # Main processing script
 ```
 
@@ -57,6 +62,24 @@ The latest feeds are always available at these stable URLs (updated every 3 hour
 - **Individual feeds**:
   `https://github.com/denisix/blacklisted-ipblock-feed/releases/latest/download/<feed>.txt`
   (e.g. `firehol-level1.txt`, `ipsum.txt`, `cymru-bogons.txt`)
+- **Grouped feeds** (defined in `groups.json`):
+  `https://github.com/denisix/blacklisted-ipblock-feed/releases/latest/download/<group>.txt`
+  (e.g. `medium.txt`, `brute.txt`)
+
+## Groups
+
+`groups.json` defines named combine files produced alongside individual feeds:
+
+| Group   | Description                            | Strategy   |
+|---------|----------------------------------------|------------|
+| `medium`| All feeds minus ipsum & blocklist-net-ua | `exclude`  |
+| `brute` | Brute-force / login attack feeds only  | `feeds`    |
+
+A group can specify its feeds two ways:
+- **`feeds`** — explicit list of feed names to include
+- **`exclude`** — everything from the full set *except* these names
+
+Both always deduplicate across constituent feeds. Add a new group by editing `groups.json` and pushing — no code changes needed.
 
 ## Usage
 
@@ -88,11 +111,14 @@ The repository uses GitHub Actions to automatically:
 ## Algorithm Details
 
 The deduplication process:
-1. Parses IPs and CIDR blocks from raw feeds
-2. Groups by network prefix for hierarchical processing  
-3. Removes subnets contained within larger blocks
-4. Merges individual IPs to /24 networks when ≥32 IPs exist in same subnet
-5. Outputs optimized, non-overlapping IP ranges
+1. Fetches GitHub's published IPv4 ranges from `api.github.com/meta` (allowlist)
+2. Parses IPs and CIDR blocks from all raw feeds
+3. Strips private/RFC1918 ranges from operational feeds (`keepPrivate` feeds retain them)
+4. Strips GitHub public-cloud ranges from every feed
+5. Groups by network prefix for hierarchical processing
+6. Removes subnets contained within larger blocks
+7. Merges individual IPs to /24 networks when ≥32 IPs exist in same subnet
+8. Writes individual feeds, the combined `all.txt`, and any group files from `groups.json`
 
 ## Output Format
 

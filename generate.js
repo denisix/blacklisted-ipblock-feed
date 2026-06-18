@@ -1,5 +1,6 @@
 const fs = require('fs')
 const feeds = require('./feeds.json')
+const groups = require('./groups.json')
 
 const IPS_MERGE_TO_NETWORK = 32
 
@@ -232,6 +233,7 @@ const run = async () => {
 
   // fetch feeds
   const ips_all = []
+  const feedIps = {}       // feedName -> dist entries (pre-stripGithub applied)
   const feedNames = Object.keys(feeds)
   for(let feedName of feedNames) {
     const cfg = feeds[feedName]
@@ -248,12 +250,21 @@ const run = async () => {
       log('feed', feedName, `saved, ${raw.length} bytes, ${distIps.length} entries`)
 
       ips_all.push(...ips)
+      feedIps[feedName] = distIps
     }
   }
 
   const uniq = stripGithub(deduplicate(ips_all).filter(cidr => !isPrivate(cidr)))
   fs.writeFileSync('dist/all.txt', uniq.join('\n'), 'utf8')
   log('total', uniq.length, 'entries saved, spent', ((Date.now() - t0) / 1000).toFixed(2), 'sec')
+
+  // write grouped files
+  for(const [groupName, cfg] of Object.entries(groups)) {
+    const names = cfg.feeds || feedNames.filter(n => !(cfg.exclude || []).includes(n))
+    const merged = deduplicate(names.flatMap(n => feedIps[n] || []))
+    fs.writeFileSync(`dist/${groupName}.txt`, merged.join('\n'), 'utf8')
+    log('group', groupName, merged.length, 'entries')
+  }
 }
 
 run()

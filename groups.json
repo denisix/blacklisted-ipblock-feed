@@ -1,0 +1,10 @@
+{
+  "medium": {
+    "description": "All feeds except ipsum and blocklist-net-ua",
+    "exclude": ["ipsum", "blocklist-net-ua"]
+  },
+  "brute": {
+    "description": "Brute-force and login-related feeds",
+    "feeds": ["blocklist-de-bruteforce", "bruteforceblocker", "blocklist-de-ssh", "abuse-ch-feodo"]
+  }
+}
